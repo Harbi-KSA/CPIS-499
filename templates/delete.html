@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head> 
+		<title> Delete data set page </title> 
+
+		<style type="text/css">
+
+			.borderex{border-style:solid; color:black ; border-color:red; font-family:normal; font-size:50}
+			h2{ font-size:30pt; font-style: italic; color:black;}
+			ol{ font-size:20pt; font-family: normal; color:black;}
+			.button{-webkit-transition:all .3s; border-color:rgb(21, 67, 194); border-radius:7px; background-color:teal; font-style:italic; border-radius:10em; width:30em; height:2em; font-size: 25px;}
+			.button:hover{background:white}
+
+		</style>
+
+		<script type="text/javascript">
+			//form validation functions
+
+			//for radio button
+			/*function radio_valid()
+			{
+				pass;
+			}
+			
+			//for text box
+			function text_valid()
+			{
+				var v=documet.getElementById("t1");
+
+				if(v.value==" ")
+				{
+						alert("please enter a value");
+				}
+
+			}*/
+		</script>
+
+	</head>
+
+	<body bgcolor="thistle">
+			<a href ="index.html" target="_blank"> <span> <img src = "ProjectPic/home.jpg" height="50" width="50" alt="homepage" style="margin-rigt:25px;"> </span> </a>
+			<center> <span style="font-size:3em;"> Welcome to Delete Page </span> </center>
+	<center> 
+		<form method="GET" action="confirm.html" id="f1">
+			<h2> Please choose Network to Delete : </h2>
+			<center>
+			<ol id="l1">
+			<label> 2030 vision<input type="radio" name="net" required> </label>
+			<li> King Salman<input type="radio" name="net"> </li>
+			<li> Trump<input type="radio" name="net"> </li>
+			</ol>
+		</center>
+			<input type="submit" name="delete" class="button" value="Delete Network" id="db">
+		</br></br>
+			<input type="reset"  name="reset"  class="button" value="reset" id="rb">
+		</form>
+	</center>
+	</body>
+
+</html>

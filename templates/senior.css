@@ -1,0 +1,7 @@
+
+
+            .borderex{border-style:solid; color:black ; border-color:red; font-family:normal; font-size:50}
+			h2{ font-size:30pt; font-style: italic; text-shadow: 3px 3px 3px white; color:green;}
+			ol{ font-size:20pt; font-family: tahoma; text-shadow: 2px 2px 3px black; color:orange;}
+			.button{-webkit-transition:all 0.4s; border-radius:7px; background-color:CadetBlue ; font-style:italic; border-radius:10em; width:30em; height:2em; font-size: 25px;}
+            .button:hover{background:white}
